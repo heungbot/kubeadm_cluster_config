@@ -18,5 +18,5 @@ module "ec2" {
 
   WORKER_AMI              = "ami-0c9c942bd7bf113a2"
   WORKER_TYPE             = "t2.medium"
-  WORKER_SCRIPT_FILE_PATH = "../worker/test.sh"
+  WORKER_SCRIPT_FILE_PATH = "../worker/worker.sh"
 }
