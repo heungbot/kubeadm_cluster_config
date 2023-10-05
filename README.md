@@ -7,7 +7,8 @@
 
 
 ### 구성 다이어 그램
-<img width="655" alt="스크린샷 2023-10-06 오전 1 10 30" src="https://github.com/heungbot/kubeadm_cluster_config/assets/97264115/c47a10d3-e03b-445f-ad50-03318ca456b4">
+<img width="641" alt="스크린샷 2023-10-06 오전 1 15 36" src="https://github.com/heungbot/kubeadm_cluster_config/assets/97264115/d318201c-0d0a-4607-9e3f-aa319b748c13">
+
 
 
 ### 구성 결과
