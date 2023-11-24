@@ -94,8 +94,8 @@ echo "--cri-socket unix:///var/run/cri-dockerd.sock" >> join_command
 
 # scp command로 join 명령어를 worker node에게 전송.
 ssh-keygen && ssh-copy-id root@worker-1 && ssh-copy-id root@worker-2
-scp join_command root@wroker-1:/root
-scp join_command root@wroker-2:/root
+scp join_command root@worker-1:/root
+scp join_command root@worker-2:/root
 
 # 명령어 수행 완료되었다면 아래와 같이 Log가 찍힐 것임.
 # [addons] Applied essential addon: kube-proxy
